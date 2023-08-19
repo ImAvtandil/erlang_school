@@ -15,3 +15,5 @@ generate(0, _, List)->
     List;
 generate(Count, Element, List)->
     generate(Count-1, Element, [Element|List]).
+
+% test
